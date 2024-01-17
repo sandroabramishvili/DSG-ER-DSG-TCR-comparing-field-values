@@ -41,31 +41,34 @@ def pair_messages(ers, tcrs):
         matching_tcr = find_tcr_by_exec_id(execution_id, tcrs)
         if matching_tcr:
             dup_exec_id = False
-            message_pairs.append((er, matching_tcr, dup_exec_id))
+            message_pairs.append((er, matching_tcr, execution_id, dup_exec_id))
             # Check for duplicate TCR based on execution_id
             dup_exec_id = tcrs.count(matching_tcr) > 1
             if dup_exec_id:
-                message_pairs.append((er, matching_tcr, dup_exec_id))
+                message_pairs.append((er, matching_tcr, execution_id, dup_exec_id))
             tcrs.remove(matching_tcr)
         else:
-            message_pairs.append((er, None, False))
+            message_pairs.append((er, None, execution_id, False))
 
     for tcr in tcrs:
-        message_pairs.append((None, tcr, False))
+        execution_id = tcr.get("execution_id")
+        message_pairs.append((None, tcr, execution_id, False))
 
     return message_pairs
 
 
 @pytest.mark.parametrize(
-    "er, tcr, dup_exec_id",
+    "er, tcr, exec_id, dup_exec_id",
     pair_messages(open_file(exec_rep_path), open_file(trade_rep_path)),
 )
-def test_equivalency(er: dict, tcr: dict, dup_exec_id: bool):
-    assert er, "ER message unavailable"
-    assert tcr, "TCR message unavailable"
-    assert not dup_exec_id, "Duplicate 'execution_id' in TCR"
+def test_equivalency(er: dict, tcr: dict, exec_id: str, dup_exec_id: bool):
+    assert er, f"ER message unavailable | TCR Execution ID: {exec_id}"
+    assert tcr, f"TCR message unavailable | ER Execution ID: {exec_id}"
+    assert (
+        not dup_exec_id
+    ), f"Duplicate 'execution_id' in TCR | ER Execution ID: {exec_id}"
 
     diff = compare(er, tcr, test_fields)
     for k, (v1, v2) in diff.items():
         logging.error(f"{k}: {v1} | {v2}")
-    assert not diff, "Field values don't match"
+    assert not diff, f"Field values don't match | Execution ID: {exec_id}"
