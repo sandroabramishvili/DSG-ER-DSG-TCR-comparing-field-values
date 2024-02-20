@@ -1,0 +1,95 @@
+import os
+import shutil
+import datetime
+import modules.const
+import modules.messages
+
+
+today = datetime.datetime.today().strftime('%Y%m%d')
+
+def write_checker_dict(dir_path,sbe_vers,msgs_dict):
+    dict_dir = dir_path+'/dict_dir'
+    if not os.path.exists('{}/'.format(dict_dir)):
+        os.makedirs('{}/'.format(dict_dir))
+    if os.path.exists('{}/checker_dict_{}.py'.format(dict_dir,sbe_vers)):
+        os.remove('{}/checker_dict_{}.py'.format(dict_dir,sbe_vers))
+    f_name = dict_dir+'/checker_dict_{}.py'.format(sbe_vers)
+    with open(f_name,'a',encoding='latin-1') as check_dict:
+        for msg in msgs_dict:
+            check_dict.write('msg[\''+msg+'\'] = [\n')
+            for field in msgs_dict[msg]:
+                check_dict.write('\t[')
+                for idx,inf in enumerate(field):
+                    if idx == 0:
+                        check_dict.write('\''+inf+'\', ')
+                    elif idx == 1:
+                        check_dict.write('\''+inf+'\', ')
+                    elif idx == 2:
+                        check_dict.write('\''+inf+'\', ')
+                    elif idx == 3:
+                        check_dict.write('\''+inf+'\'')
+                check_dict.write('],\n')
+            check_dict.write(']\n')
+
+def write_from_list(d_list,parser_dict):
+    ln_list = len(d_list)
+    for idx,field in enumerate(d_list):
+        if idx != ln_list - 1:
+            parser_dict.write('\t'+str(field)+',\n')
+        else:
+            parser_dict.write('\t'+str(field)+'\n]\n\n')
+
+def write_from_dict(d_dict,parser_dict):
+    ln_dict = len(d_dict)
+    for idx,field in enumerate(d_dict):
+        if idx != ln_dict - 1:
+            parser_dict.write('\t\''+msgid+'\': \''+d_dict[field]+'\',\n')
+        else:
+            parser_dict.write('\t\''+msgid+'\': \''+d_dict[field]+'\'\n}\n\n')
+
+def write_parser_dict(dir_path,venue,parser_source, sbe_vers, msgs,msgids):
+    dict_dir = dir_path+'/dict_dir'
+    if not os.path.exists('{}/'.format(dict_dir)):
+        os.makedirs('{}/'.format(dict_dir))
+    venue_dict_dir = dict_dir+'/{}'.format(venue)
+    if not os.path.exists('{}/'.format(venue_dict_dir)):
+        os.makedirs('{}/'.format(venue_dict_dir))
+    if os.path.exists('{}/dict_{}.py'.format(venue_dict_dir,sbe_vers)):
+        os.remove('{}/dict_{}.py'.format(venue_dict_dir,sbe_vers))
+    f_name = venue_dict_dir+'/dict_{}.py'.format(sbe_vers)
+    with open(f_name,'a',encoding='latin-1') as parser_dict:
+        parser_dict.write('# -*- coding: utf-8 -*-\n\n')
+        parser_dict.write('msgs = {}\n\n')
+        parser_dict.write('msgids = {\n')
+        ln_msgids = len(msgids)
+        for idx,msgid in enumerate(msgids):
+            if idx != ln_msgids - 1:
+                parser_dict.write('\t\''+msgid+'\': \''+msgids[msgid]+'\',\n')
+            else:
+                parser_dict.write('\t\''+msgid+'\': \''+msgids[msgid]+'\'\n}\n\n')
+        if venue == 'cdw':
+            ln_uh = len(modules.const.unit_header)
+            parser_dict.write('unit_header = [\n')
+            for idx,uh_field in enumerate(modules.const.unit_header):
+                if idx != ln_uh - 1:
+                    parser_dict.write('\t'+str(uh_field)+',\n')
+                else:
+                    parser_dict.write('\t'+str(uh_field)+'\n]\n\n')
+            parser_dict.write('ENR = {\n')
+
+            for enr in 
+            parser_dict.write('splitted_msgs = [\n')
+            ln_sp = len(modules.const.splitted_msgs)
+            for idx,sp_msg in enumerate(modules.const.splitted_msgs):
+                if idx != ln_sp - 1:
+                    parser_dict.write('\t'+str(sp_msg)+',\n')
+                else:
+                    parser_dict.write('\t'+str(sp_msg)+'\n]\n\n')
+            parser_dict.write('alpha_msgs = [\n')
+            ln_alpha = len(modules.const.alpha_msgs)
+            for idx,alpha_msg in enumerate(modules.const.alpha_msgs):
+                if idx != ln_alpha - 1:
+                    parser_dict.write('\t'+str(alpha_msg)+',\n')
+                else:
+                    parser_dict.write('\t'+str(alpha_msg)+'\n]\n\n')
+
