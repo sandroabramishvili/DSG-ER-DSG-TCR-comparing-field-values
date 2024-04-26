@@ -2,6 +2,7 @@ import os
 import re
 import shutil
 import importlib as imp
+from pathlib import Path
 
 
 def old_round_robin(all_partitions,topic_split,part_num):
@@ -21,14 +22,24 @@ def round_robin(all_partitions,topic_split,part_num):
     return lists
 
 def get_threadid():
-    dir_path = '/app/opdssacd/argocdw/env/'
-    env_config_file = '/app/opdssacd/argocdw/env/environment.cfg'
+    # dir_path = '/app/opdssacd/argocdw/env/'
+    # env_config_file = '/app/opdssacd/argocdw/env/environment.cfg'
+    current_directory = Path(__file__).parent
+    dir_path = current_directory/'configs'
+    env_config_file = current_directory/'configs'/'environment.cfg'
     part_dict = {}
     threadid = {}
     thread = ''
-    for csv_file in os.listdir('/app/opdssacd/argocdw/files/csvout/'):
-        if '_file_part.csv' in csv_file:
-            part_list_file = '/app/opdssacd/argocdw/files/csvout/'+csv_file
+    # for csv_file in os.listdir('/app/opdssacd/argocdw/files/csvout/'):
+
+    for csv_file in (current_directory / 'configs').iterdir():
+        if csv_file.name == '20240221_file_part.csv':
+            part_list_file = csv_file
+
+    # for csv_file in os.listdir(current_directory/'configs'):
+    #     if '20240221_file_part.csv' in csv_file:
+    #         # part_list_file = '/app/opdssacd/argocdw/files/csvout/'+csv_file
+    #         part_list_file = current_directory/'configs' + csv_file
     with open(part_list_file,'r') as part:
         all_part = part.readlines()
         for line in all_part:

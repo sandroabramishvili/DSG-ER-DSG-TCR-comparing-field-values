@@ -59,3 +59,9 @@ def write_enrichment(enrichment,enrichment_file):
         for symbol in list(enrichment.keys()):
             enr_values = str(list(enrichment.values())[0])[1:-1]
             enr.write('\''+symbol+'\':'+enr_values+'\n')
+
+# def write_enrichment(enrichment, enrichment_file):
+#     with open(enrichment_file, 'a') as enr:
+#         for symbol, values in enrichment.items():
+#             enr_values = ', '.join([f"'{key}': '{value}'" for key, value in values.items()])
+#             enr.write(f"'{symbol}': {enr_values}\n")

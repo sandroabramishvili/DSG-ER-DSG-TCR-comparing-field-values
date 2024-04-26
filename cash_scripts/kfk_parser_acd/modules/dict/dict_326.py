@@ -408,7 +408,7 @@ msgs['IAMarketLimits'] = [
 	['eventId', '8', 'UInt64'],
 	['eventTime', '8', 'UInt64'],
 	['sequenceTime', '8', 'UInt64'],
-	['RG_12002_U', 1]
+	['RG_12002_U', 1, 1, 0]
 ]
 
 msgs['RG_12002_U'] = [
@@ -469,7 +469,7 @@ msgs['IALongTrade'] = [
 	['exchangeCode', '1', 'Char'],
 	['tradeUniqueIdentifier', '16', 'Char'],
 	['tradeParkingActionIndicator', '1', 'UInt8'],
-	['RG_12004_LTOS', 1]
+	['RG_12004_LTOS', 1, 1, 0]
 ]
 
 msgs['RG_12004_LTOS'] = [
@@ -553,12 +553,12 @@ msgs['IAShortTrade'] = [
 	['strategyTradedQuantity', '8', 'UInt64'],
 	['tradeUniqueIdentifier', '16', 'Char'],
 	['tradeParkingActionIndicator', '1', 'UInt8'],
-	['RG_12005_STOIDS', 1],
-	['RG_12005_MMTF', 1],
-	['RG_12005_SFO1', 1],
-	['RG_12005_SFO2', 1],
-	['RG_12005_ISFO', 2],
-	['RG_12005_IOFO', 2]
+	['RG_12005_STOIDS', 1, 1, 0],
+	['RG_12005_MMTF', 1, 0, 0],
+	['RG_12005_SFO1', 1, 0, 0],
+	['RG_12005_SFO2', 1, 0, 0],
+	['RG_12005_ISFO', 2, 0, 0],
+	['RG_12005_IOFO', 2, 0, 0]
 ]
 
 msgs['RG_12005_STOIDS'] = [
@@ -689,22 +689,22 @@ msgs['IALongOrder'] = [
 	['exchangeIOIID', '8', 'Int64'],
 	['tradeUniqueIdentifier', '16', 'Char'],
 	['routingStrategy', '1', 'UInt8'],
-	['RG_12006_FTS', 1],
-	['RG_12006_OF', 1],
-	['RG_12006_CF', 1],
-	['RG_12006_NMOF', 1],
-	['RG_12006_NMSC', 1],
-	['RG_12006_MSC', 1],
-	['RG_12006_CF1', 1],
-	['RG_12006_MCIF', 1],
-	['RG_12006_NMCIF', 1],
-	['RG_12006_ECA', 1],
-	['RG_12006_SF', 1],
-	['RG_12006_OFD', 1],
-	['RG_12006_AI', 1],
-	['RG_12006_SCDNM', 4],
-	['RG_12006_SCDM', 2],
-	['RG_12006_SL', 1]
+	['RG_12006_FTS', 1, 0, 0],
+	['RG_12006_OF', 1, 0, 0],
+	['RG_12006_CF', 1, 0, 0],
+	['RG_12006_NMOF', 1, 0, 0],
+	['RG_12006_NMSC', 1, 0, 0],
+	['RG_12006_MSC', 1, 0, 0],
+	['RG_12006_CF1', 1, 0, 0],
+	['RG_12006_MCIF', 1, 0, 0],
+	['RG_12006_NMCIF', 1, 0, 0],
+	['RG_12006_ECA', 1, 0, 0],
+	['RG_12006_SF', 1, 0, 0],
+	['RG_12006_OFD', 1, 0, 0],
+	['RG_12006_AI', 1, 0, 0],
+	['RG_12006_SCDNM', 4, 0, 0],
+	['RG_12006_SCDM', 2, 0, 0],
+	['RG_12006_SL', 1, 0, 0]
 ]
 
 msgs['RG_12006_FTS'] = [
@@ -857,19 +857,19 @@ msgs['IAOrderNewModify'] = [
 	['regulatorDisplayedQuantity', '8', 'UInt64'],
 	['rFCID', '4', 'UInt32'],
 	['exchangeIOIID', '8', 'Int64'],
-	['RG_12007_FTS', 1],
-	['RG_12007_OF', 1],
-	['RG_12007_CF', 1],
-	['RG_12007_NMOF', 1],
-	['RG_12007_NMSC', 1],
-	['RG_12007_MSC', 1],
-	['RG_12007_CF1', 1],
-	['RG_12007_MCIF', 1],
-	['RG_12007_NMCIF', 1],
-	['RG_12007_ECA', 1],
-	['RG_12007_AI', 1],
-	['RG_12007_SCDNM', 4],
-	['RG_12007_SCDM', 2]
+	['RG_12007_FTS', 1, 0, 0],
+	['RG_12007_OF', 1, 0, 0],
+	['RG_12007_CF', 1, 0, 0],
+	['RG_12007_NMOF', 1, 0, 0],
+	['RG_12007_NMSC', 1, 0, 0],
+	['RG_12007_MSC', 1, 0, 0],
+	['RG_12007_CF1', 1, 0, 0],
+	['RG_12007_MCIF', 1, 0, 0],
+	['RG_12007_NMCIF', 1, 0, 0],
+	['RG_12007_ECA', 1, 0, 0],
+	['RG_12007_AI', 1, 0, 0],
+	['RG_12007_SCDNM', 4, 0, 0],
+	['RG_12007_SCDM', 2, 0, 0]
 ]
 
 msgs['RG_12007_FTS'] = [
@@ -978,10 +978,10 @@ msgs['IAShortOrderFill'] = [
 	['orderQualifiers', '1', 'UInt8'],
 	['regulatorDisplayedQuantity', '8', 'UInt64'],
 	['tradeUniqueIdentifier', '16', 'Char'],
-	['RG_12008_QR', 1],
-	['RG_12008_SF', 1],
-	['RG_12008_OFD', 1],
-	['RG_12008_ISFO', 1]
+	['RG_12008_QR', 1, 0, 0],
+	['RG_12008_SF', 1, 0, 0],
+	['RG_12008_OFD', 1, 0, 0],
+	['RG_12008_ISFO', 1, 0, 0]
 ]
 
 msgs['RG_12008_QR'] = [
@@ -1068,8 +1068,8 @@ msgs['IAShortOrderReject'] = [
 	['oESessionID', '8', 'UInt64'],
 	['orderSide', '1', 'UInt8'],
 	['timeInForce', '1', 'UInt8'],
-	['RG_12010_MSC', 1],
-	['RG_12010_SCDM', 2]
+	['RG_12010_MSC', 1, 0, 0],
+	['RG_12010_SCDM', 2, 0, 0]
 ]
 
 msgs['RG_12010_MSC'] = [
@@ -1176,7 +1176,7 @@ msgs['IAShortOrderConfirmation'] = [
 	['oESessionID', '8', 'UInt64'],
 	['sequenceTime', '8', 'UInt64'],
 	['orderQualifiers', '1', 'UInt8'],
-	['RG_12015_MSC', 1]
+	['RG_12015_MSC', 1, 0, 0]
 ]
 
 msgs['RG_12015_MSC'] = [
@@ -1228,7 +1228,7 @@ msgs['IAStaticCollars'] = [
 	['symbolIndex', '4', 'UInt32'],
 	['eMM', '1', 'UInt8'],
 	['sequenceTime', '8', 'UInt64'],
-	['RG_12018_SC', 3]
+	['RG_12018_SC', 3, 0, 0]
 ]
 
 msgs['RG_12018_SC'] = [
@@ -1318,8 +1318,8 @@ msgs['IATradeBustNotification'] = [
 	['sequenceTime', '8', 'UInt64'],
 	['tradeUniqueIdentifier', '16', 'Char'],
 	['parentTradeUniqueIdentifier', '16', 'Char'],
-	['RG_12021_SCDNM', 4],
-	['RG_12021_SCDM', 2]
+	['RG_12021_SCDNM', 4, 0, 0],
+	['RG_12021_SCDM', 2, 0, 0]
 ]
 
 msgs['RG_12021_SCDNM'] = [
@@ -1357,8 +1357,8 @@ msgs['IAQuoteRequest'] = [
 	['minOrderQty', '8', 'UInt64'],
 	['sequenceTime', '8', 'UInt64'],
 	['accountType', '1', 'UInt8'],
-	['RG_12022_NMSC', 1],
-	['RG_12022_SCDNM', 4]
+	['RG_12022_NMSC', 1, 0, 0],
+	['RG_12022_SCDNM', 4, 0, 0]
 ]
 
 msgs['RG_12022_NMSC'] = [
@@ -1483,11 +1483,11 @@ msgs['IAQuote'] = [
 	['sequenceTime', '8', 'UInt64'],
 	['orderQualifiers', '1', 'UInt8'],
 	['sTPID', '2', 'UInt16'],
-	['RG_12050_BQ', 1],
-	['RG_12050_OQ', 1],
-	['RG_12050_CD', 1],
-	['RG_12050_NMSC', 1],
-	['RG_12050_MSC', 1]
+	['RG_12050_BQ', 1, 0, 0],
+	['RG_12050_OQ', 1, 0, 0],
+	['RG_12050_CD', 1, 0, 0],
+	['RG_12050_NMSC', 1, 0, 0],
+	['RG_12050_MSC', 1, 0, 0]
 ]
 
 msgs['RG_12050_BQ'] = [
@@ -1872,9 +1872,9 @@ msgs['IAInstrument'] = [
 	['marketingProductNameID', '4', 'UInt32'],
 	['maximumInvestorAllocatedQuantity', '8', 'UInt64'],
 	['buyBackIndicator', '1', 'UInt8'],
-	['RG_12224_EMMPR', 0],
-	['RG_12224_BR', 0],
-	['RG_12224_SPR', 0]
+	['RG_12224_EMMPR', 0, 0, 1],
+	['RG_12224_BR', 0, 0, 1],
+	['RG_12224_SPR', 0, 0, 1]
 ]
 
 msgs['RG_12224_EMMPR'] = [
@@ -1915,7 +1915,7 @@ msgs['IATimetable'] = [
 	['consumeTime', '8', 'UInt64'],
 	['batchID', '1', 'UInt8'],
 	['patternID', '2', 'UInt16'],
-	['RG_12226_CT1', 1]
+	['RG_12226_CT1', 1, 1, 0]
 ]
 
 msgs['RG_12226_CT1'] = [
@@ -1933,7 +1933,7 @@ msgs['IATicktable'] = [
 	['consumeTime', '8', 'UInt64'],
 	['batchID', '1', 'UInt8'],
 	['tickSizeIndexID', '2', 'UInt16'],
-	['RG_12227_CTSR', 1]
+	['RG_12227_CTSR', 1, 1, 0]
 ]
 
 msgs['RG_12227_CTSR'] = [
@@ -1948,7 +1948,7 @@ msgs['IAAuthorizedPriceFluctuation'] = [
 	['consumeTime', '8', 'UInt64'],
 	['batchID', '1', 'UInt8'],
 	['authorizedPriceFluctuationTableID', '2', 'UInt16'],
-	['RG_12228_APFR', 1]
+	['RG_12228_APFR', 1, 1, 0]
 ]
 
 msgs['RG_12228_APFR'] = [
@@ -1968,7 +1968,7 @@ msgs['IAMarketMaker'] = [
 	['mIC', '4', 'Char'],
 	['currency', '3', 'Char'],
 	['symbolIndex', '4', 'UInt32'],
-	['RG_12229_MMR', 1]
+	['RG_12229_MMR', 1, 0, 0]
 ]
 
 msgs['RG_12229_MMR'] = [
@@ -2044,7 +2044,7 @@ msgs['IATradingGroup'] = [
 	['vWAPPeriod', '8', 'UInt64'],
 	['cCPClearingType', '1', 'UInt8'],
 	['patternType', '1', 'UInt8'],
-	['RG_12233_TGEMMP', 0]
+	['RG_12233_TGEMMP', 0, 0, 1]
 ]
 
 msgs['RG_12233_TGEMMP'] = [
@@ -2119,7 +2119,7 @@ msgs['IAConstituents'] = [
 	['consumeTime', '8', 'UInt64'],
 	['batchID', '1', 'UInt8'],
 	['underlyingID', '8', 'UInt64'],
-	['RG_12252_IACR', 1]
+	['RG_12252_IACR', 1, 1, 0]
 ]
 
 msgs['RG_12252_IACR'] = [
@@ -2152,7 +2152,7 @@ msgs['IABondAmortizationSchedule'] = [
 	['batchID', '1', 'UInt8'],
 	['symbolIndex', '4', 'UInt32'],
 	['instrumentID', '8', 'UInt64'],
-	['RG_12255_BASR', 1]
+	['RG_12255_BASR', 1, 1, 0]
 ]
 
 msgs['RG_12255_BASR'] = [
@@ -2171,7 +2171,7 @@ msgs['IACouponDate'] = [
 	['symbolIndex', '4', 'UInt32'],
 	['instrumentID', '8', 'UInt64'],
 	['optiqSegment', '1', 'UInt8'],
-	['RG_12256_CDS', 1]
+	['RG_12256_CDS', 1, 1, 0]
 ]
 
 msgs['RG_12256_CDS'] = [
@@ -2229,7 +2229,7 @@ msgs['IATradeClearing'] = [
 	['tradeUniqueIdentifier', '16', 'Char'],
 	['marketIdentifier', '4', 'Char'],
 	['tradeEndValidityDate', '2', 'UInt16'],
-	['RG_12234_TCOS', 1]
+	['RG_12234_TCOS', 1, 1, 0]
 ]
 
 msgs['RG_12234_TCOS'] = [

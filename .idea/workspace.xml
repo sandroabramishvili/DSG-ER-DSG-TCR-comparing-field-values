@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="063ca955-1eda-477f-918f-0482a3c3c6a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/configs.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/modules/configs/20240221_file_part.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/modules/configs/environment.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/16.02.2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/23.04.2024.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/create_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/create_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_317.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_317.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_318.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_318.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_319.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_319.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_320.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_320.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_321.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_321.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_322.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_322.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_323.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_323.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_324.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_324.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_325.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_325.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_326.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_326.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_327.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_327.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_328.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_328.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_329.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_329.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_330.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_330.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_331.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_331.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_332.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_332.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_333.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/dict_dir/parser/cdw/dict_333.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/modules/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/modules/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/modules/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/dict_creator_acd/modules/const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_317.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_317.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_318.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_318.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_319.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_319.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_320.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_320.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_321.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_321.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_322.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_322.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_323.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_323.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_324.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_324.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_325.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_325.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_326.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_326.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_327.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_327.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_328.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_328.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_329.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_329.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_330.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_330.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_331.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_331.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_332.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_332.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_333.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/dict/dict_333.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/files.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/make_enrichment.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/make_enrichment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/modules/parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12001.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12002.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12003.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12004.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12005.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12006.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12007.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12008.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12009.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12010.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12011.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12012.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12013.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12014.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12015.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12016.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12019.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12020.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12021.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12022.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12023.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12041.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12044.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12050.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12051.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12052.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12053.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12067.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12070.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12071.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12073.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12077.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12215.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12216.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12217.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12218.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12219.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12220.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12221.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12222.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12223.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12224.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12224A.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12224B.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12224C.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12226.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12227.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12228.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12229.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12231.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12232.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12233.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12233A.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12234.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12240.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12241.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12249.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12250.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12251.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12252.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12253.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12254.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12255.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12256.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_12257.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_540.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_541.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_542.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_543.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_544.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_545.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cash_scripts/kfk_parser_acd/output/20240214/Kafka_546.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2fUw5hw3qr4QTMqhydwMgTyUMA7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Personal/Work/2024/Python/23.04.2024/cash_scripts/kfk_parser_acd/modules/enrichment"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal\Work\2024\Python\23.04.2024\cash_scripts\kfk_parser_acd\modules\enrichment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Personal\Work\2024\Python\23.04.2024\cash_scripts\kfk_parser_acd\modules" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="063ca955-1eda-477f-918f-0482a3c3c6a4" name="Changes" comment="" />
+      <created>1713868782730</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713868782730</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

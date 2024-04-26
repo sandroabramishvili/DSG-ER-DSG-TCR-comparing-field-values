@@ -152,11 +152,11 @@ for vers in all_dicts:
                         n_gr += 1
                         msgs[r_gr_name] = []
                         if venue == 'cdw' and dict_type != 'msgs_maker':
-                            msgs[m.attrib['name']].append([r_gr_name,modules.const.rg_cnt[r_gr_name][0]])
+                            msgs[m.attrib['name']].append([r_gr_name,modules.const.rg_cnt[r_gr_name][0],modules.const.split_groups[r_gr_name][0],modules.const.split_groups[r_gr_name][1]])
                         elif venue == 'bi' or dict_type == 'msgs_maker':
-                            msgs[m.attrib['name']].append([r_gr_name,modules.const.rg_cnt[r_gr_name][1]])
+                            msgs[m.attrib['name']].append([r_gr_name,modules.const.rg_cnt[r_gr_name][1],modules.const.split_groups[r_gr_name][0],modules.const.split_groups[r_gr_name][1]])
                         elif venue == 'ptc':
-                            msgs[m.attrib['name']].append([r_gr_name,modules.const.rg_cnt[r_gr_name][2]])
+                            msgs[m.attrib['name']].append([r_gr_name,modules.const.rg_cnt[r_gr_name][2],modules.const.split_groups[r_gr_name][0],modules.const.split_groups[r_gr_name][1]])
                     for g in f.iter('field'):
                         field_name = g.attrib['name']
                         if venue == 'cdw' and g.attrib['name'].lower() == 'session'  and dict_type != 'msgs_maker':
